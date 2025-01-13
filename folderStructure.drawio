@@ -1,0 +1,529 @@
+<mxfile host="65bd71144e">
+    <diagram id="P0" name="Page-1">
+        <mxGraphModel dx="2772" dy="1558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="src" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="apis" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="auth.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="HandleLogin.apis.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="80" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="HandleRegister.api.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" parent="1" source="3" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="App.css" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="80" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" parent="1" source="2" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="App.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" parent="1" source="2" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="assets" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="240" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" parent="1" source="2" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="react.svg" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="240" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" parent="1" source="9" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="components" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="320" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" parent="1" source="2" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="custom" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="320" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" parent="1" source="11" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="selectFileds.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" parent="1" source="12" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="TextField.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="80" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" parent="1" source="12" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="layout" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="400" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" parent="1" source="11" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="direction.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" parent="1" source="15" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="mainLayout.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="240" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" parent="1" source="15" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="navbar" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="320" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" parent="1" source="15" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="components" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="800" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" parent="1" source="18" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="LanguageSwitcher.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="1000" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" parent="1" source="19" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Logo.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="80" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" parent="1" source="19" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="MobileMenu.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" parent="1" source="19" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Navigation.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="240" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" parent="1" source="19" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="ProfileMenu.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="320" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" parent="1" source="19" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="navbar.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="800" y="80" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" parent="1" source="18" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="publica&amp;protectedRoutes" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="480" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" parent="1" source="11" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="protectedRoutes.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="400" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" parent="1" source="26" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="publicRoutes.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="480" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" parent="1" source="26" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="ui" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="560" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" parent="1" source="11" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="accordion.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="560" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" parent="1" source="29" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="button.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="640" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" parent="1" source="29" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="collapsible.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="720" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" parent="1" source="29" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="command.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="800" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" parent="1" source="29" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="form.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="880" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" parent="1" source="29" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="input.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="960" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" parent="1" source="29" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="label.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1040" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" parent="1" source="29" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="select.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" parent="1" source="29" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="toast.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1200" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" parent="1" source="29" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="toaster.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1280" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" parent="1" source="29" target="39" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="tooltip.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1360" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" parent="1" source="29" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="confegrations" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="400" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" parent="1" source="2" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="routesConfig.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="640" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" parent="1" source="41" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="constants" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="480" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" parent="1" source="2" target="43" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="BaseUrl.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="720" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" parent="1" source="43" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="login.constant.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="800" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" parent="1" source="43" target="45" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="register.constant.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="880" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" parent="1" source="43" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="hooks" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="560" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" parent="1" source="2" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="use-toast.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="960" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" parent="1" source="47" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="use-toastHook.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1040" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" parent="1" source="47" target="49" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="useAuthorization.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" parent="1" source="47" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="i18n" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="640" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" parent="1" source="2" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="index.js" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1200" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" parent="1" source="51" target="52" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="index.css" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="720" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" parent="1" source="2" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="lib" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="800" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" parent="1" source="2" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="utils.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1280" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" parent="1" source="54" target="55" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="main.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="880" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" parent="1" source="2" target="56" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="pages" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="960" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" parent="1" source="2" target="57" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Auth" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1360" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" parent="1" source="57" target="58" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="login" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1440" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" parent="1" source="58" target="59" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="handleErrorHook.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="800" y="160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" parent="1" source="59" target="60" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="index.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="800" y="240" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" parent="1" source="59" target="61" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="schema.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="800" y="320" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" parent="1" source="59" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="register" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1520" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" parent="1" source="58" target="63" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="handleErrorHook.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="800" y="400" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" parent="1" source="63" target="64" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="index.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="800" y="480" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" parent="1" source="63" target="65" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="registerComponents" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="800" y="560" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" parent="1" source="63" target="66" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="B2BFields.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="400" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" parent="1" source="66" target="67" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="schema.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="800" y="640" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" parent="1" source="63" target="68" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="dashboard" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1440" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" parent="1" source="57" target="69" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="index.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1600" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" parent="1" source="69" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="notFound" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1520" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" parent="1" source="57" target="71" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="page.tsx" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1680" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" parent="1" source="71" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="store" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="1040" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" parent="1" source="2" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="useAuthStore .ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1600" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" parent="1" source="73" target="74" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="1120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" parent="1" source="2" target="75" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="enum" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1680" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" parent="1" source="75" target="76" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="ClientType.enum.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1760" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" parent="1" source="76" target="77" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="interface" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1760" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" parent="1" source="75" target="78" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="ApiHandlerParams.inerface.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1840" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" parent="1" source="78" target="79" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="loginForm.interface.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="1920" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" parent="1" source="78" target="80" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Register.interface.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="2000" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" parent="1" source="78" target="81" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="User.interface.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="2080" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" parent="1" source="78" target="82" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="types" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1840" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" parent="1" source="75" target="83" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="HttpMehod.type.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="600" y="2160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" parent="1" source="83" target="84" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="utls" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="1200" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" parent="1" source="2" target="85" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="apiHandler.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1920" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" parent="1" source="85" target="86" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="signedUserOut.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="400" y="2000" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" parent="1" source="85" target="87" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="vite-env.d.ts" style="shape=rectangle" parent="1" vertex="1">
+                    <mxGeometry x="200" y="1280" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" parent="1" source="2" target="88" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

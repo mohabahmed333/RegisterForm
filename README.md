@@ -1,50 +1,47 @@
-# React + TypeScript + Vite
+How to Run the Project
+This project is built using React, a JavaScript library for building user interfaces. Follow the steps below to run the project locally on your machine.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prerequisites
+Make sure you have the following installed on your system:
 
-Currently, two official plugins are available:
+Node.js (v16.0.0 or later) and npm (Node Package Manager)
+Download Node.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Git (for cloning the repository)
+Download Git
 
-## Expanding the ESLint configuration
+Steps to Run the Project
+Clone the Repository
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+bash
+Copy code
+git clone <repository-url>
+Replace <repository-url> with the actual URL of your Git repository.
 
-- Configure the top-level `parserOptions` property like this:
+Navigate to the Project Directory
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+bash
+Copy code
+cd <project-folder-name>
+Install Dependencies Use npm or yarn (if yarn is installed) to install all the necessary dependencies:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+bash
+Copy code
+npm install
+or
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+bash
+Copy code
+yarn install
+Run the Project Start the development server:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+bash
+Copy code
+npm start
+or
+
+bash
+Copy code
+yarn start
+Open in Browser By default, the development server runs on http://localhost:3000. Open this URL in your browser to view the application.
+
